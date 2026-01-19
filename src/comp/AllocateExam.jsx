@@ -35,7 +35,7 @@ export default function AllocateExam() {
           <input
             className="input"
             type="number"
-            placeholder="120"
+            placeholder="Number of Student"
             value={totalStudents}
             onChange={(e) => setTotalStudents(e.target.value)}
           />

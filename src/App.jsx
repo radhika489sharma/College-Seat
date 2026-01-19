@@ -16,7 +16,7 @@ export default function App() {
 
   return (
     <div className="container">
-      <h1>College Exam Seat Planner</h1>
+      <h1>COLLEGE EXAM PLANNER</h1>
 
       <AddClassroomForm onAdded={loadRooms} />
       <ClassroomList rooms={rooms} />

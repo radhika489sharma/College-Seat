@@ -42,10 +42,10 @@ export default function AddClassroomForm({ onAdded }) {
 
       <form className="form" onSubmit={submit}>
         <div>
-          <div className="label">Room ID (optional)</div>
+          <div className="label">Room ID</div>
           <input
             className="input"
-            placeholder="A-101"
+            placeholder="Room ID"
             value={roomId}
             onChange={(e) => setRoomId(e.target.value)}
           />
@@ -57,7 +57,7 @@ export default function AddClassroomForm({ onAdded }) {
             <input
               className="input"
               type="number"
-              placeholder="30"
+              placeholder="Capacity"
               value={capacity}
               onChange={(e) => setCapacity(e.target.value)}
               required
@@ -69,7 +69,7 @@ export default function AddClassroomForm({ onAdded }) {
             <input
               className="input"
               type="number"
-              placeholder="1"
+              placeholder="Floor No"
               value={floorNo}
               onChange={(e) => setFloorNo(e.target.value)}
               required
